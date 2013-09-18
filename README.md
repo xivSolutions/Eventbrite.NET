@@ -8,6 +8,6 @@ I will be focusing on implementing all of the API calls available on the EventBr
 I will be experimenting at first, and likely making breaking changes to the original implementation. However, according to the project owner, it is no longer being actively maintained, so hopefully I can expand on his original concept and update things a little. 
 
 
-## Where is the REAL EventBrite.NET project?
+#Looking for the REAL EventBrite.NET project? Follow the link below:
 
 Refer to the [original project homepage](http://penguinboy.github.com/Eventbrite.NET) for more detailed usage information.
