@@ -1,15 +1,13 @@
 ﻿
-# Eventbrite.NET
+# EventBriteApiClient
 
-Eventbrite.NET is an API wrapper for the event management site [eventbrite.com](http://eventbrite.com).
-Currently the focus of the project is around *fetching* data from Eventbrite and representing it in a suiteable class.
-As of writing, there are class representations of Organizers, Events, Tickets, and Attendees. Not all classes
-give a full representation of the object, but the most critical data is there.
+EventBriteApiClient is a fork of the EventBrite.NET repo, and will be an API wrapper for the event management site [eventbrite.com](http://eventbrite.com).
 
-Requests are made to Eventbrite's API via HTTP GET calls, using an API key supplied by the user.
-The XML documents that Eventbrite returns are then parsed into coherant classes. 
-The project utilises lazy-loading, ensuring there is minimal overhead for simple requests.
+I will be focusing on implementing all of the API calls available on the EventBrite site, and representing the data as suitable classes for use in a .NET application, persisting data locally, and/or pushing data to the Eventbrite back-end.
 
-## Gettting Started
+I will be experimenting at first, and likely making breaking changes to the original implementation. However, according to the project owner, it is no longer being actively maintained, so hopefully I can expand on his original concept and update things a little. 
 
-Refer to the [project homepage](http://penguinboy.github.com/Eventbrite.NET) for more detailed usage information.
+
+## Where is the REAL EventBrite.NET project?
+
+Refer to the [original project homepage](http://penguinboy.github.com/Eventbrite.NET) for more detailed usage information.
